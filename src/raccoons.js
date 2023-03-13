@@ -1,4 +1,4 @@
-const raccoons = [
+export const raccoons = [
   {
     id: 1,
     name: "Robert",

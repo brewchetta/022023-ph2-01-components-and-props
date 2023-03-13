@@ -1,6 +1,4 @@
-function RaccoonProfile({ name, favFood = "pizza", hometown="NYC" }) {
-
-    // console.log( props )
+function RaccoonProfile({ name, favFood = "trash" }) {
 
     // const name = props.name
     // const favFood = props.favFood
@@ -9,11 +7,10 @@ function RaccoonProfile({ name, favFood = "pizza", hometown="NYC" }) {
     
     return (
         <div>
-            <p>Name: {name}</p>
+            <h2>Name: {name}</h2>
             <p>Favorite Food: {favFood}</p>
         </div>
     )
 }
-
 
 export default RaccoonProfile
